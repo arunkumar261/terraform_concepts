@@ -6,9 +6,10 @@ terraform {
     }
   }
     backend "s3" {
-    bucket = "terraform-remote-state-arundev"
+    bucket = "terraform-remote-state-arundevonline"      #create bucket with this name in aws cloud
     key    = "terraform-remote-state"
     region = "us-east-1"
+    dynamodb_table = "terraform-remote-state-arundevonline-lock" #create dunamodb lock with this name in aws cloud
   }
 }
 
