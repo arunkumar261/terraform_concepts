@@ -15,14 +15,14 @@ variable "instance_names" {
     mongodb ="t3.small"
     mysql ="t3.small"
     shipping ="t3.small"
-    web ="t3.small"
-    user ="t3.small"
-    cart ="t3.small"
-    redis ="t3.small"
-    rabbitmq ="t3.small"
-    payment ="t3.small"
-    dispatch ="t3.small"
-    catalohgue ="t3.small"
+    web ="t2.micro"
+    user ="t2.micro"
+    cart ="t2.micro"
+    redis ="t2.micro"
+    rabbitmq ="t2.micro"
+    payment ="t2.micro"
+    dispatch ="t2.micro"
+    catalohgue ="t2.micro"
   }
 }
 
